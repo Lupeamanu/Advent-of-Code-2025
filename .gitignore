@@ -1,0 +1,23 @@
+# Zig build artifacts
+.zig-cache/
+zig-out/
+
+# Common build/output directories
+/release/
+/debug/
+/build/
+/build-*/
+
+# Temporary files for documentation generation
+/docgen_tmp/
+
+# Editor/IDE specific files (optional, consider global gitignore for these)
+# .vscode/
+# *.swp
+# .DS_Store
+
+# Common build files
+*.exe
+*.pdb
+build.zig
+build.zig.zon
